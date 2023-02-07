@@ -55,7 +55,7 @@ of imbalance dataset in our case. So, not to worry about the classes distributio
 <br/><br>
 
 <br/><br>
-![Frequency Distribution](images/frequency_distribution.png)
+![Frequency Distribution](images/frequency_distribution.PNG)
 <br/><br>
 
 The above graph represents the frequency of Ages for persons who are having a heart disease or not. 
@@ -63,14 +63,14 @@ Above graph is showing that a person having age ranging from 36 to 54 is most li
 disease.
 
 <br/><br>
-![Heart Disease Frquency](images/disease_frequency_sex.png)
+![Heart Disease Frquency](images/disease_frequency_sex.PNG)
 <br/><br>
 
 The above graph represents the frequency of Sex for persons who are having a heart disease or not. 
 Above graph is showing that the ratio of female having heart disease is higher than the male.
 
 <br/><br>
-![Heart Disease FBS Frquency](images/frequency_fbs.png)
+![Heart Disease FBS Frquency](images/frequency_fbs.PNG)
 <br/><br>
 
 
@@ -81,7 +81,7 @@ more likely to have heart disease than the ones who have FBS higher than 120 mg/
 
 > Correlation Matrix Using Heatmap Plotting
 <br/><br>
-![Correlation Matrix](images/correlation_matrix.png)
+![Correlation Matrix](images/correlation_matrix.PNG)
 <br/><br>
 
 <br/><br>
@@ -101,7 +101,7 @@ there is need of separate cluster for this feature. Otherwise, if there is no va
 is the optimal point which tells you how many optimal clusters you may have in your dataset.
 
 <br/><br>
-![PCA](images/pca_features.png)
+![PCA](images/pca_features.PNG)
 <br/><br>
 
 Elbow Method is also one of the method used for selecting optimal number of clusters. If there is 
@@ -110,7 +110,7 @@ constant distance between clusters then before this point will be your optimal c
 dataset.
 
 <br/><br>
-![Elbow Method](images/elbow_method.png)
+![Elbow Method](images/elbow_method.PNG)
 <br/><br>
 
 After converting Multi-dimensional feature of our dataset into two dimensions we are plotting 
@@ -118,7 +118,7 @@ these points using scatter plot. On the X-axis we take PCA Feature 1 and on the 
 feature 2.
 
 <br/><br>
-![PCA Scatter Plot](images/pca_scatter_plot.png)
+![PCA Scatter Plot](images/pca_scatter_plot.PNG)
 <br/><br>
 
 ### K-Means Clustering:
@@ -135,7 +135,7 @@ this distance measure can be Euclidian, Manhattan or any other.
 3) init: (Method for initialization)
 
 <br/><br>
-![KMeans Clustering](images/k_means_clustering.png)
+![KMeans Clustering](images/k_means_clustering.PNG)
 <br/><br>
 
 
@@ -148,7 +148,7 @@ the feature where the root node is the most relevant or important feature. The p
 is selected based on the Information Gain which is discussed below.
 
 <br/><br>
-![Decision Tree](images/decision_tree.png)
+![Decision Tree](images/decision_tree.PNG)
 <br/><br>
 
 The parameters for Decision Tree was also selected by Hyper parameter tuning using 
@@ -156,7 +156,7 @@ GridSearchCV with 10 cross validations. The parameters which were taken into con
 are shown below.
 
 <br/><br>
-![Decision Tree Parameters](images/tunnig_parameters_decision_tree.png)
+![Decision Tree Parameters](images/tunnig_parameters_decision_tree.PNG)
 <br/><br>
 
 ### Confusion Matrix For Decision Tree:
@@ -166,17 +166,17 @@ who do not have heart disease) whereas for class 1 (Patients who have heart dise
 25 correct predictions and 9 wrong predictions.
 
 <br/><br>
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.PNG)
 <br/><br>
 
 ### Precision For Decision Tree:
 
 <br/><br>
-![Precision](images/precision_decision_tree.png)
+![Precision](images/precision_decision_tree.PNG)
 <br/><br>
 
 ### Recall For Decision Tree:
 
 <br/><br>
-![Recall](images/recall_decision_tree.png)
+![Recall](images/recall_decision_tree.PNG)
 <br/><br>
